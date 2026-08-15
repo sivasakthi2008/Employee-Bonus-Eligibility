@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Employee Bonus Checker</title>
+
+<style>
+body{
+    font-family: Georgia, serif;
+    background: linear-gradient(135deg,#ff9966,#ff5e62);
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:0;
+}
+
+.container{
+    background:white;
+    padding:40px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+h1{
+    color:#d84315;
+    font-size:38px;
+}
+
+p{
+    color:#555;
+    font-size:18px;
+}
+
+a{
+    display:inline-block;
+    margin-top:20px;
+    padding:12px 25px;
+    background:#d84315;
+    color:white;
+    text-decoration:none;
+    border-radius:25px;
+    font-weight:bold;
+    font-size:18px;
+}
+
+a:hover{
+    background:#bf360c;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Employee Bonus Eligibility</h1>
+    <p>Click below to view eligible employees.</p>
+    <a href="result.html">View Eligible Employees</a>
+</div>
+
+</body>
+</html>
